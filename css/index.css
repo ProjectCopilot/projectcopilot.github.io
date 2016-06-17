@@ -1,5 +1,10 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css");
 
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
 .centered {
     height: 150px;
     width: 100%;
@@ -18,14 +23,11 @@ h1 {
     font-size: 4rem;
     line-height: 1.5;
     margin-bottom: 10px;
-    font-family: "Open Sans", sans-serif;
-    //font-family: Charter, Georgia, serif;
 }
 
 h3 {
     color: #999;
     font-size: 1.25rem;
-    font-family: "Open Sans", sans-serif;
 }
 
 a {
@@ -34,5 +36,26 @@ a {
 }
 
 a:hover {
-    color: #549BB8;
+    color: #549bb8;
+}
+
+footer {
+    color: #999;
+    font-size: .75rem;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: -40px;
+}
+
+p {
+    margin: 0 10%;
+}
+
+em {
+    color: #f33;
+}
 
