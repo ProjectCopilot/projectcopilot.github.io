@@ -23,6 +23,7 @@ h1 {
     font-size: 4rem;
     line-height: 1.5;
     margin-bottom: 10px;
+    color: #191919;
 }
 
 h3 {
@@ -59,3 +60,10 @@ em {
     color: #f33;
 }
 
+#info{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 100%;
+}
