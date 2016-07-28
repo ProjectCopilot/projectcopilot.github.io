@@ -74,8 +74,8 @@ em {
     left: -100%;
 }
 
-#info-wrapper {
-    padding: 50px;
+#info-wrapper{
+    padding: 25px;
 }
 
 @media only screen and (max-width: 830px) {
