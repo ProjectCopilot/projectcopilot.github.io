@@ -34,13 +34,14 @@ h3 {
     font-weight: 300;
 }
 
-a {
+a, button {
     text-decoration: inherit;
     color: #87ceeb;
 }
 
-a:hover {
+a:hover, button:hover {
     color: #549bb8;
+    cursor: pointer;
 }
 
 footer {
@@ -64,8 +65,9 @@ em {
 }
 
 #info{
+    opacity: 0;
     z-index: 1;
-    background: rgba(255,255,255,.9);
+    background: rgb(255,255,255);
     position: absolute;
     width: 100%;
     height: auto;
@@ -83,7 +85,8 @@ button:focus{
 button{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    border: 1px solid #191919;
+    font-size: 1rem;
+    border: none;
     background: transparent;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -91,6 +94,7 @@ button{
 }
 
 #info p{
+    font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
     font-weight: 400;
     text-indent: 50px;
