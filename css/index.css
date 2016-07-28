@@ -1,3 +1,5 @@
+@import url(http://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css);
+
 body {
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
