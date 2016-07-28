@@ -1,8 +1,8 @@
 $("#more").click(function(){
-    $("#info").animate({"left": "0",'opacity':'1'}, "slow");
-    $("")
+    $("#info").animate({"left": "30%",'opacity':'1'}, 650);
+    $("#info").animate({"left": "0%",'opacity':'1'}, 300);
 });
 
 $("#back").click(function(){
-    $("#info").animate({"right": "100%",'opacity':'1'}, "slow");
+    $("#info").animate({"left": "-100%",'opacity':'1'}, "slow");
 });
