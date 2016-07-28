@@ -1,7 +1,3 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
-@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-
 body {
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
@@ -15,10 +11,6 @@ body {
     top: 50%;
     left: 0;
     margin-top: -75px;
-}
-
-.centered span{
-    font-weight: bold;
 }
 
 section {
@@ -80,7 +72,9 @@ em {
     padding: 75px;
 }
 
-button:focus{outline: none;}
+button:focus{
+    outline: none;
+}
 
 button{
     font-family: 'Open Sans', sans-serif;
@@ -95,4 +89,5 @@ button{
 #info p{
     line-height: 1.5;
     font-weight: 400;
+    text-indent: 50px;
 }
