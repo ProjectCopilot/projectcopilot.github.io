@@ -74,15 +74,15 @@ em {
     left: -100%;
 }
 
-#info-wrapper{
+#info-wrapper {
     padding: 75px;
 }
 
-button:focus{
+button :focus {
     outline: none;
 }
 
-button{
+button {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 1rem;
@@ -93,17 +93,25 @@ button{
     padding: 15px;
 }
 
-#info p{
+#info p {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
     font-weight: 400;
     text-indent: 50px;
+    padding-bottom: 1rem;
 }
 
 .ps {
-    margin-top: 1.5rem;
     text-align: center;
     font-size: 0.8rem;
     color: #999;
+}
+
+.noindent {
+    text-indent: 0 !important;
+}
+
+.home-wrapper {
+    margin-top: 1rem;
 }
 
