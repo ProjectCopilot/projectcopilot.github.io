@@ -1,3 +1,8 @@
+if (window.location.hash === '#more') {
+    $('section').css({'position': 'fixed'});
+    $('#info').css({'left': '0%', 'opacity': '1'});
+}
+
 $('#more').click(function() {
     $('section').css({'position': 'fixed'});
     $('#info').animate({'left': '0%'}, 200);
