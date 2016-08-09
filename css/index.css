@@ -72,6 +72,7 @@ em {
     width: 100%;
     height: auto;
     left: -100%;
+    color: rgba(0,0,0,0.5);
 }
 
 #info-wrapper{
@@ -92,12 +93,10 @@ button :focus {
 
 button {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.25rem;
+    font-weight: 300;
     border: none;
     background: transparent;
-    text-transform: uppercase;
-    letter-spacing: 1px;
     padding: 15px;
 }
 
@@ -115,6 +114,7 @@ button {
     color: #999;
 }
 
+<<<<<<< HEAD
 .noindent {
     text-indent: 0 !important;
 }
@@ -123,3 +123,8 @@ button {
     margin-top: 1rem;
 }
 
+=======
+#info h1{
+    font-size: 32px;
+}
+>>>>>>> fixed font color, size, padding, made animations happen together, and centered text. also optimized for mobile screens
