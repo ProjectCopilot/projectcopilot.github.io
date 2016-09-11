@@ -65,18 +65,18 @@ em {
 }
 
 #info{
-    opacity: 0;
+    opacity: 0.5;
     z-index: 1;
     background: rgb(255,255,255);
     position: absolute;
     width: 100%;
     height: auto;
     left: -100%;
+    color: rgba(0,0,0,0.5);
 }
 
-#info-wrapper {
-    width: 680px;
-    margin: 75px auto;
+#info-wrapper{
+    padding: 25px;
 }
 
 @media only screen and (max-width: 830px) {
@@ -93,12 +93,10 @@ button :focus {
 
 button {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.25rem;
+    font-weight: 300;
     border: none;
     background: transparent;
-    text-transform: uppercase;
-    letter-spacing: 1px;
     padding: 15px;
 }
 
@@ -116,11 +114,6 @@ button {
     color: #999;
 }
 
-.noindent {
-    text-indent: 0 !important;
+#info h1{
+    font-size: 32px;
 }
-
-.home-wrapper {
-    margin-top: 1rem;
-}
-
