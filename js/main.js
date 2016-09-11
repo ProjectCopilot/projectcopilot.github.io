@@ -10,6 +10,6 @@ $('#more').click(function() {
 });
 
 $("#back").click(function(){
-	$("section").css({"position": "absolute"});
+    $("section").css({"position": "absolute"});
     $("#info").animate({"left": "-110%", "opacity" : "0.5"}, 200);
 });

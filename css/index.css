@@ -114,17 +114,6 @@ button {
     color: #999;
 }
 
-<<<<<<< HEAD
-.noindent {
-    text-indent: 0 !important;
-}
-
-.home-wrapper {
-    margin-top: 1rem;
-}
-
-=======
 #info h1{
     font-size: 32px;
 }
->>>>>>> fixed font color, size, padding, made animations happen together, and centered text. also optimized for mobile screens
